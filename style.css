@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: grid;
+    gap: 1em;
+    padding: 1em;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+
+
+.text-block {
+    border: 1px solid #ddd;
+    padding: 1em;
+    background-color: #f4f4f4;
+}
+@media(min-width:768) and (max-width:)
+@media (min-width:768px) and (max-width:1023px){
+    .text-block{
+        
+        grid-template-columns: repeat(2,10rem);
+        background-color: lightblue;
+        color: darkblue;
+    }
+
+}
+@media(min-width:1024px) {
+    .text-block{
+        grid-template-columns: repeat(3,10rem);
+        background-color: lightgreen;
+        color: darkgreen;
+
+    }
+}
+
+
+
+
